@@ -132,6 +132,9 @@ td,
 th {
   vertical-align: middle; }
 
+html {
+  height: 100%; }
+
 body {
   color: #333;
   font-family: "PT Sans", sans-serif;
@@ -177,3 +180,79 @@ html {
 
 *, *::after, *::before {
   box-sizing: inherit; }
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding: 40px;
+  z-index: 999; }
+  .navigation ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center; }
+    .navigation ul li {
+      display: inline;
+      padding-right: 10px; }
+  .navigation a {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent; }
+    .navigation a:hover {
+      border-bottom: 1px solid #1565c0; }
+
+#profile {
+  background: url("../images/pexels-photo-14676.png") center center fixed no-repeat;
+  background-size: cover; }
+
+.profile {
+  padding: 160px 0;
+  color: #ddd;
+  text-align: center; }
+  .profile__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px; }
+  .profile__heading {
+    font-size: 48px;
+    margin-bottom: 0; }
+  .profile .tagline {
+    font-size: 16px; }
+  .profile__footer {
+    padding-top: 60px; }
+    .profile__footer ul li {
+      display: inline;
+      font-size: 18px; }
+
+.skills {
+  color: #fff; }
+
+.projects {
+  color: #333; }
+
+.resume {
+  color: #fff; }
+
+.contact {
+  color: #333; }
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+section {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+.action-text {
+  color: #1565c0; }

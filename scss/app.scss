@@ -1,3 +1,26 @@
 @import "bourbon";
 @import "base/base";
 @import "neat";
+@import "mixins";
+@import "nav";
+@import "profile";
+@import "skills";
+@import "projects";
+@import "resume";
+@import "contact";
+
+.container {
+	@include outer-container(800px);
+}
+
+section {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.action-text {
+	color: $action-color;
+}
