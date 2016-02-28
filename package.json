@@ -1,0 +1,17 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "A theme to showcase my portfolio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chimezie Enyinnaya",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "jquery": "^2.2.1",
+    "node-neat": "^1.7.2"
+  }
+}
