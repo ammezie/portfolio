@@ -140,7 +140,8 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  margin: 0; }
+  margin: 0;
+  height: 100%; }
 
 h1,
 h2,
@@ -249,9 +250,6 @@ html {
     display: table; }
 
 section {
-  height: 100%; }
-
-body {
   height: 100%; }
 
 .action-text {

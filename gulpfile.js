@@ -1,6 +1,5 @@
 var gulp          = require('gulp'),
     sass          = require('gulp-sass'),
-    // bourbon       = require('node-bourbon').includePaths,
     neat          = require('node-neat').includePaths;
 
 
