@@ -1,0 +1,7 @@
+#footer {
+	@include fill-parent;
+	@include background(linear-gradient(#f9f9f9, #fafafa) left repeat);
+	font-size: em(13);
+	text-align: center;
+	@include pad(10px);
+}

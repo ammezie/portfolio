@@ -1,3 +1,5 @@
+ $mobile: new-breakpoint(max-width 600px);
+
 .navigation {
 	position: absolute;
 	width: 100%;
@@ -17,15 +19,24 @@
 			display: inline;
 			padding-right: 10px;
 		}
-	}
 
-	a {
-		text-transform: uppercase;
-		padding-bottom: 5px;
-		border-bottom: 1px solid transparent;
+		a {
+			text-transform: uppercase;
+			padding-bottom: 5px;
+			border-bottom: 1px solid transparent;
 
-		&:hover {
-			border-bottom: 1px solid $action-color;
+			&:hover {
+				border-bottom: 1px solid $action-color;
+			}
 		}
 	}
+
+	
+	// .toggleNavigation {
+	// 	display: none;
+		
+	// 	@include media($mobile) {
+	// 		display: block;
+	// 	}
+	// }
 }

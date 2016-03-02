@@ -1,8 +1,27 @@
-// #contact {
-// 	@include background(linear-gradient(#f9f9f9, #fafafa) left repeat);
-// 	background-size: cover;
-// }
+$small: new-breakpoint(max-width 480px);
+
+#contact {
+	@include pad(50px default);
+}
 
 .contact {
 	color: $dark-gray;
+
+	.contact-form {
+		@include span-columns(8);
+
+		@include media($mobile) {
+			@include span-columns(12);
+		}
+	}
+
+	.social-links {
+		@include span-columns(4);
+
+		@include media($mobile) {
+			@include span-columns(12);
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
 }

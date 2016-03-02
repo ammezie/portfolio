@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chimezie Enyinnaya</title>
     <link rel="stylesheet" href="css/vendor/normalize.css">
     <link rel="stylesheet" href="css/app.css">
@@ -20,8 +20,9 @@
 			<li><a href="#" title="Home">Home</a></li>
 			<li><a href="#projects" title="Projects">Projects</a></li>
 			<li><a href="#skills" title="Skills">Skills</a></li>
-			<li><a href="#resume" title="Resume">Resume</a></li>
+			<li><a href="#about" title="about">About</a></li>
 			<li><a href="#contact" title="Contact">Contact</a></li>
+			<li><a href="/blog" title="Contact">Blog</a></li>
 		</ul>
 	</nav>
 
@@ -32,14 +33,7 @@
 				<h1 class="profile__heading">Chimezie Enyinnaya</h1>
 				<span class="tagline">I'm a <span class="action-text">web devloper</span></span>
 				<div class="profile__footer">
-					<ul>
-						<li><a href="http://twitter.com/ammezie" title="Twiiter">
-							<i class="fa fa-twitter"></i>
-						</a></li>
-						<li><a href="http://github.com/ammezie" title="GitHub">
-							<i class="fa fa-github"></i>
-						</a></li>
-					</ul>
+					
 				</div>
 			</div>
 		</div>
@@ -61,30 +55,58 @@
 		</div>
 	</section>
 
-	<section id="resume">
+	<section id="about">
 		<div class="container">
-			<div class="resume">
+			<div class="about">
 				<h2>Who am I?</h2>
+				<u>
+					<li>
+						<i class="fa fa-twitter"></i>
+						<a href="http://twitter.com/ammezie" title="Twiiter">ammezie</a>
+					</li>
+					<li>
+						<i class="fa fa-github"></i>
+						<a href="http://github.com/ammezie" title="GitHub">ammezie</a>
+					</li>
+					<li>
+						<i class="fa fa-stack-overflow"></i>
+						<a href="http://stackoverflow.com/users/3208193/ammezie" title="Stackoverflow">ammezie</a>
+					</li>
+				</u>
 			</div>
 		</div>
 	</section>
 
 	<section id="contact">
 		<div class="container">
+			<h2>Get in Touch</h2>
+			<p>I'm currently taking on new freelance work, you can get in touch with me using the contact form below.</p>
 			<div class="contact">
-				<h2>Get in Touch</h2>
-				<form>
+				<form class="contact-form">
 					<input type="text" name="name" placeholder="Full Name">
 					<input type="email" name="email" placeholder="Email Address">
-					<textarea placeholder="Message"></textarea>
-					<button type="submit">Send</button>
+					<textarea rows="10" placeholder="Message"></textarea>
+					<button class="btn-block" type="submit">Send</button>
 				</form>
+				
+				<ul class="social-links">
+					<li>
+						<i class="fa fa-envelope-o"></i>
+						<a href="mailto:meziemichael@gmail.com">meziemichael@gmail</a>
+					</li>
+					<li>
+						<i class="fa fa-phone"></i>
+						07032047179
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
 
 	<footer id="footer">
-		<p>&copy; 2016 <strong>Chimezie Enyinnaya</strong></p>
+		<div class="container">
+			&copy; 2016 <strong>Chimezie Enyinnaya</strong>
+		</div>
 	</footer>
 
 	<script src="js/vendor/jquery.min.js"></script>

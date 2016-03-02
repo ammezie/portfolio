@@ -8,6 +8,7 @@
 @import "projects";
 @import "resume";
 @import "contact";
+@import "footer";
 
 .container {
 	@include outer-container(800px);
@@ -19,4 +20,8 @@ section {
 
 .action-text {
 	color: $action-color;
+}
+
+.btn-block {
+	width: 100%;
 }

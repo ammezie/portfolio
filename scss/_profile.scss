@@ -5,7 +5,7 @@
 }
 
 .profile {
-	@include pad(160px 0);
+	@include pad(160px default);
 	color: #ddd;
 	text-align: center;
 
@@ -16,21 +16,21 @@
 	}
 
 	@include e('heading') {
-		font-size: 48px;
+		font-size: em(48);
 		margin-bottom: 0;
 	}
 
 	.tagline {
-		font-size: 16px;
+		font-size: em(16);
 	}
 
-	@include e('footer') {
-		padding-top: 60px;
+	// @include e('footer') {
+	// 	padding-top: 60px;
 
-		ul li {
-			display: inline;
-			font-size: 18px;
-		}
-	}
+	// 	ul li {
+	// 		display: inline;
+	// 		font-size: 18px;
+	// 	}
+	// }
 
 }
