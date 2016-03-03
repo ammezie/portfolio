@@ -1,6 +1,6 @@
 var gulp          = require('gulp'),
     sass          = require('gulp-sass'),
-    neat          = require('node-neat').includePaths;
+    autoprefixer  = require('gulp-autoprefixer');
 
 
 var paths = {
@@ -8,11 +8,21 @@ var paths = {
   cssDestination: 'css/'
 };
 
+var options = [
+  "Android 2.3",
+  "Android >= 4",
+  "Chrome >= 20",
+  "Firefox >= 24",
+  "Explorer >= 8",
+  "iOS >= 6",
+  "Opera >= 12",
+  "Safari >= 6"
+];
+
 gulp.task('sass', function () {
   gulp.src(paths.cssSource + '**/*.scss')
-    .pipe(sass({
-       includePaths: ['styles'].concat(neat)
-    }))
+    .pipe(sass())
+    .pipe(autoprefixer({options}))
     .pipe(gulp.dest(paths.cssDestination));
 });
 

@@ -1,0 +1,26 @@
+#hero {
+	background: url('../images/pexels-photo-14676.png') center center fixed no-repeat;
+	background-size: cover;
+}
+
+.hero {
+	padding-top: 160px;
+	padding-bottom: 160px;
+	color: #ddd;
+	text-align: center;
+
+	@include e('avatar') {
+		width: 150px;
+		height: 150px;
+		border-radius: 15px;
+	}
+
+	@include e('heading') {
+		font-size: 48px;
+		margin-bottom: 0;
+	}
+
+	@include e('tagline') {
+		font-size: 16px;
+	}
+}

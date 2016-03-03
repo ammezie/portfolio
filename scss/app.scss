@@ -1,27 +1,26 @@
-@import "bourbon";
-@import "base/base";
-@import "neat";
+@import "cus-variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "mixins";
 @import "nav";
-@import "profile";
-@import "skills";
-@import "projects";
-@import "resume";
-@import "contact";
+@import "hero";
+// @import "skills";
+// @import "projects";
+// @import "about";
+// @import "contact";
 @import "footer";
-
-.container {
-	@include outer-container(800px);
-}
 
 section {
 	height: 100%;
 }
 
 .action-text {
-	color: $action-color;
+	color: $brand-primary;
 }
 
-.btn-block {
-	width: 100%;
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	padding-top: 51px;
 }
