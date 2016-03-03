@@ -3,13 +3,16 @@
 @import "mixins";
 @import "nav";
 @import "hero";
-// @import "skills";
-// @import "projects";
-// @import "about";
-// @import "contact";
+@import "skills";
+@import "works";
+@import "about";
+@import "contact";
 @import "footer";
 
-section {
+#hero,
+#works,
+#skills,
+#about {
 	height: 100%;
 }
 
@@ -22,5 +25,15 @@ html {
 }
 body {
 	height: 100%;
-	padding-top: 51px;
+  	padding-top: 55px;
+}
+
+.padded {
+	padding: 40px 0;
+}
+
+
+.form-control:focus {
+    border-color: $brand-primary;
+    box-shadow: none;
 }
