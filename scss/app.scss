@@ -37,3 +37,27 @@ body {
     border-color: $brand-primary;
     box-shadow: none;
 }
+
+// .heading {
+// 	border-bottom: 1px solid #ededee;
+// 	padding-bottom: 10px;
+
+// 	@include modifier('fancy') {
+// 		width: 20%;
+// 		border-bottom: 1px solid #111;
+// 	}
+// }
+.fancy-heading {
+	text-align: center;
+	padding-bottom: 10px;
+
+	&:after {
+		content: '';
+		
+	}
+	
+
+	
+}
+
+

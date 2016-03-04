@@ -1512,7 +1512,7 @@ pre {
       width: 970px; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px; } }
+      width: 970px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -5795,6 +5795,15 @@ button.close {
   .hero__tagline {
     font-size: 16px; }
 
+.about__social-links ul {
+  display: inline;
+  list-style: none;
+  padding: 0; }
+  .about__social-links ul li {
+    display: inline;
+    padding-left: 10px;
+    font-size: 16px; }
+
 ul.direct-contacts {
   margin: 0;
   padding: 0;
@@ -5829,3 +5838,9 @@ body {
 .form-control:focus {
   border-color: #337ab7;
   box-shadow: none; }
+
+.fancy-heading {
+  text-align: center;
+  padding-bottom: 10px; }
+  .fancy-heading:after {
+    content: ''; }
