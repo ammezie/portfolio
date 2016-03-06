@@ -5816,20 +5816,10 @@ ul.direct-contacts {
   text-align: center;
   padding: 10px; }
 
-#hero,
-#works,
-#skills,
-#about {
-  height: 100%; }
-
 .action-text {
   color: #337ab7; }
 
-html {
-  height: 100%; }
-
 body {
-  height: 100%;
   padding-top: 55px; }
 
 .padded {
