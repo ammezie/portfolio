@@ -172,23 +172,25 @@
 					<h2 class="fancy-heading">Get in Touch</h2>
 					<div class="col-md-7">
 						<p>I'm currently taking on new freelance work, you can get in touch with me using the contact form below.</p>
-						<form class="contact-form" action="" method="POST">
+						<form class="contact-form" action="http://formspree.io/meziemichael@gmail.com" method="POST">
+							<input type="hidden" name="_subject" value="Contact Chimezie Enyinnaya">
 							<div class="form-group">
-								<input type="text" class="form-control" name="name" placeholder="Full Name">
+								<input type="text" class="form-control" name="name" placeholder="Full Name" required>
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" name="email" placeholder="Email Address">	
+								<input type="email" class="form-control" name="email" placeholder="Email Address" required>	
 							</div>
 							<div class="form-group">
-								<textarea rows="10" class="form-control" placeholder="Message"></textarea>	
+								<textarea rows="10" class="form-control" name="message" placeholder="Message" required></textarea>	
 							</div>
 							<div class="form-group">
+								<input type="hidden" name="_next" value="http://www.chimezieenyinnaya.com/thanks.html">
 								<button class="btn btn-primary btn-block" type="submit">Send</button>
 							</div>
 						</form>
 					</div>
 					<div class="col-md-5">
-						<p>You can also reach me directly.</p>
+						<p>Prefer to reach me directly? well, you can also;</p>
 						<ul class="direct-contacts">
 							<li>
 								<i class="fa fa-envelope-o"></i>
