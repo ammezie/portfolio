@@ -1,6 +1,7 @@
 #hero {
-	background: url('../images/pexels-photo-14676.png') center center fixed no-repeat;
-	background-size: cover;
+	// background: url('../images/pexels-photo-14676.png') center center fixed no-repeat;
+	// background-size: cover;
+	background-color: #335;
 }
 
 .hero {
@@ -22,5 +23,6 @@
 
 	@include e('tagline') {
 		font-size: 16px;
+		color: #FFEB3B;
 	}
 }
